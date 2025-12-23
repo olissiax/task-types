@@ -8,9 +8,7 @@ export function getPersons(): Array<{
     name: string;
     age: number;
     gender: 'male' | 'female';
-}> {
-    return [];
-}
+}>;
 
 /*
 Типизируйте функцию personToString, возвращающую строку и принимающую объект одного из следующих форматов:
@@ -29,6 +27,4 @@ export function personToString(person: {
     age: number;
     gender: 'male' | 'female';
     company?: string;
-}): string {
-    return '';
-}
+}): string;
